@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "499925857055",
+    "project_id": "something-new-flutter",
+    "storage_bucket": "something-new-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:499925857055:android:84528abc0bb4fdf002f62a",
+        "android_client_info": {
+          "package_name": "com.example.newflutterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMD_A1Isg8-IsRoloP7fdsSq6E6UWy1UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
