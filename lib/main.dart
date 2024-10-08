@@ -26,7 +26,6 @@ void main() {
     ),
   );
 }
-
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -104,6 +103,7 @@ class _NotesViewState extends State<NotesView> {
     );
   }
 }
+
 Future<bool>showLogOutDialog(BuildContext context) {
   return showDialog<bool>(
   context: context, 
@@ -114,7 +114,7 @@ Future<bool>showLogOutDialog(BuildContext context) {
       actions: [
         TextButton(onPressed: () {
           Navigator.of(context).pop(false);
-
+          
         }, child: const Text('Cancel'),),
           TextButton(onPressed: () {
           Navigator.of(context).pop(true);
