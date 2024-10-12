@@ -8,6 +8,7 @@ import 'package:new_flutter1/constants/routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
+  
   runApp(
     MaterialApp(
       title: 'Flutter Demo',
@@ -20,6 +21,7 @@ void main() {
         registerRoute: (context) => const RegisterView(),
         notesRoute: (context) => const NotesView(),
         verifyEmailRoute: (context) => const VerifyEmailView(),
+        
       },
     ),
   );
@@ -40,7 +42,6 @@ class HomePage extends StatelessWidget {
                 return const NotesView();
               } else {
                 return const VerifyEmailView();
-
               }
             } else {
               return const LoginView();
